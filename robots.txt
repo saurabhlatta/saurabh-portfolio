@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://saurabhlatta.github.io/saurabh-portfolio/sitemap.xml

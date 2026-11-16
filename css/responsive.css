@@ -1,0 +1,19 @@
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;padding-top:110px}
+  .hero-visual{max-width:340px;margin:0 auto;order:-1}
+  .about-grid,.learn,.contact-grid{grid-template-columns:1fr}
+  .photo{max-width:260px}
+  .learn-tabs{flex-direction:row;flex-wrap:wrap}
+  .learn-tabs button.active{transform:none}
+}
+@media (max-width:760px){
+  .nav-toggle{display:block}
+  .menu{position:fixed;top:64px;left:0;right:0;flex-direction:column;gap:18px;padding:26px 5vw;background:rgba(7,8,13,.96);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);transform:translateY(-130%);transition:transform .35s}
+  .nav-open .menu{transform:none}
+}
+@media (max-width:520px){
+  .section{padding:64px 5vw}
+  .ticks{grid-template-columns:1fr}
+  .cards-2{grid-template-columns:1fr}
+  .actions .btn{flex:1;text-align:center}
+}
